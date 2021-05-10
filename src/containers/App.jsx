@@ -24,16 +24,16 @@ import { Headline2, Headline4 } from '../styles/Headline'
 import { Container2, Row2 } from '../styles/RowContainer'
 
 //Imagenes
-import ImgHombre from '../images/perfilHombre.jpeg'
-import ImgHombre2 from '../images/perfilHombre2.png'
-import ImgHombre3 from '../images/perfilHombre3.png'
-import ImgMujer from '../images/perfilMujer.png'
-import ImgMujer2 from '../images/perfilMujer2.png'
+import ImgHombre from '../files/perfilHombre.jpeg'
+import ImgHombre2 from '../files/perfilHombre2.png'
+import ImgHombre3 from '../files/perfilHombre3.png'
+import ImgMujer from '../files/perfilMujer.png'
+import ImgMujer2 from '../files/perfilMujer2.png'
 
-import Banner from '../images/banner.jpg'
+import Banner from '../files/banner.jpg'
 import Contacto from '../components/Contacto';
-import Img from '../images/mascotas.jpg'
-import Img2 from '../images/principeFresco.jpg'
+import Img from '../files/mascotas.jpg'
+import Img2 from '../files/principeFresco.jpg'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
