@@ -79,7 +79,7 @@ const StyleButtonCollapse = styled(Button)`
 class NavH extends Component {
 
     fbShare() {
-        window.open('../files/HV_HILDER_ARRIETA.pdf');
+        window.open('HV_HILDER_ARRIETA.pdf');
     }
 
     render() {
@@ -89,7 +89,7 @@ class NavH extends Component {
                     <StyledIcon icon={faHeart} />
                 </StyledNavBarHeart>
                 <Navbar.Brand>
-                    <a href="../files/HV_HILDER_ARRIETA.pdf" download="" style={{textDecoration:"none"}}>
+                    <a href="HV_HILDER_ARRIETA.pdf" download="" style={{textDecoration:"none"}}>
                         <StyleButtonCollapse variant="outline-danger">Descargar Curriculum</StyleButtonCollapse>
                     </a>
                 </Navbar.Brand>
@@ -103,7 +103,7 @@ class NavH extends Component {
                         <StyledNavLink href="#Contacto"><BodyRegular2 name="Contacto" /></StyledNavLink>
                     </Nav>
                     <StyleButtonNav>
-                        <a href="../files/HV_HILDER_ARRIETA.pdf" download="" style={{textDecoration:"none"}}>
+                        <a href="HV_HILDER_ARRIETA.pdf" download="" style={{textDecoration:"none"}}>
                             <StyleButton variant="outline-danger">Descargar Curriculum</StyleButton>
                         </a>
                     </StyleButtonNav>
