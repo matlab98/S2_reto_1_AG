@@ -1,1 +1,3 @@
-# S2_reto_1_AG
+Spring 2 semana 3 reto 1:
+
+Se diseñará un portafolio profesional, que mostrará mi trayectorio actual.
