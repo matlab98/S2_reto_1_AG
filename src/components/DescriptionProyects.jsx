@@ -25,8 +25,8 @@ const DescriptionProyects = () => {
     return (
         <Row2 style={{ color: "#0F0E17" }}>
             <Col xs={12} md={7}>
-                <StyledTitulo1><Headline2 name="Juntos lograremos construir grandiosos proyectos." /></StyledTitulo1>
-                <StyledTitulo2><Headline4 name="Juntos lograremos construir grandiosos proyectos." /></StyledTitulo2>
+                <StyledTitulo1><Headline2 name="Parece magia, funciona con código." /></StyledTitulo1>
+                <StyledTitulo2><Headline4 name="Parece magia, funciona con código." /></StyledTitulo2>
 
             </Col>
             <Col>
