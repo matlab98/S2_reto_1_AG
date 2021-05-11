@@ -36,7 +36,7 @@ class Testimony extends Component {
                             <h1 style={{ color: "#F25F4C"}}><BodyBold2 name={this.state.names} /></h1>
                         </Col>
                     </Row2>
-                    <p className = "intento">{this.state.testimonios} </p>
+                    <p className = "format">{this.state.testimonios} </p>
                     
                 </Col>
             </>

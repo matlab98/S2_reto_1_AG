@@ -34,6 +34,7 @@ import Banner from '../files/banner.jpg'
 import Contact from '../components/Contact';
 import Img from '../files/mascotas.jpg'
 import Img2 from '../files/principeFresco.jpg'
+import Img3 from '../files/Doc.png'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
@@ -100,8 +101,9 @@ const App = () => {
             <Projects>
                 <DescriptionProjects/>
                 <Row2 style={{ textAlign: "center" }}>
-                    <Project proyectos={["Adopción de mascotas", "...", Img, "https://github.com/matlab98/Spring-1-App_Adoption-AG", "https://matlab98.github.io/Spring-1-App_Adoption-AG/"]} />
-                    <Project proyectos={["Príncipe fresco", "La serie está protagonizada por Will Smith como una versión ficticia de sí...", Img2, "https://github.com/elverytr/PrincipeFresco", "https://elverytr.github.io/PrincipeFresco/"]} />
+                    <Project proyectos={["Adopción de mascotas", "Adopta una mascota es tu oportunidad para...", Img, "https://github.com/matlab98/Spring-1-App_Adoption-AG", "https://matlab98.github.io/Spring-1-App_Adoption-AG/"]}/>
+                    <Project proyectos={["Príncipe fresco", "La serie está protagonizada por Will Smith como una versión ficticia de sí...", Img2, "https://github.com/elverytr/PrincipeFresco", "https://elverytr.github.io/PrincipeFresco/"]}/>
+                    <Project proyectos={["Documentación técnica", "La documentación del lenguaje R, en una forma fácil de entender...", Img3, "https://github.com/matlab98/Documentacion_tecnica_AG", "https://matlab98.github.io/Documentacion_tecnica_AG/"]}/>
                 </Row2>
                 <StyleDivProjects>
                     <a href="https://github.com/matlab98" target="_blank"><StyledButton variant="outline-danger">Ver más proyectos <StyledIcon icon={faArrowRight} /></StyledButton></a>
@@ -111,8 +113,8 @@ const App = () => {
                 <Service/>
             </Services>
             <Testimonials>
-                <StyledTitulo1><Headline2 name="Testimonios" /></StyledTitulo1>
-                <StyledTitulo2><Headline4 name="Testimonios" /></StyledTitulo2>
+                <StyledTitulo1><Headline2 name="Testimonios"/></StyledTitulo1>
+                <StyledTitulo2><Headline4 name="Testimonios"/></StyledTitulo2>
                 <Container2 fluid>
                     <Row2>
                         <Testimony personas={["Juan Antonio", "Tengo algunos años trabajando con Javascript y aún así aprendí varias cosas importantes de Hilder y como utiliza Javascript en el día a día.", ImgMujer]} />

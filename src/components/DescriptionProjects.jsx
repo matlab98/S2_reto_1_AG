@@ -28,9 +28,9 @@ const DescriptionProjects = () => {
                 <StyledTitulo1><Headline2 name="Parece magia, funciona con código." /></StyledTitulo1>
                 <StyledTitulo2><Headline4 name="Parece magia, funciona con código." /></StyledTitulo2>
             </Col>
-            
+
             <Col>
-                <StyledTitulo1><p className="intento">A lo largo de mi aprendizaje de Frontend, he tenido el privilegio de realizar proyectos retadores e increíbles.</p></StyledTitulo1>
+                <StyledTitulo1><p className="format">A lo largo de mi aprendizaje de Frontend, he tenido el privilegio de realizar proyectos retadores e increíbles.</p></StyledTitulo1>
                 <StyledTitulo2><BodyRegular2 name="A lo largo de mi aprendizaje de Frontend, he tenido el privilegio de realizar proyectos retadores e increíbles."/></StyledTitulo2>
             </Col>
         </Row2>

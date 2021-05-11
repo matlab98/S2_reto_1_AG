@@ -113,7 +113,7 @@ class Project extends Component {
                                 <Headline5 name={this.state.titulo} />
                             </div>
                             <div style={{ color: "#A7A9BE" }}>
-                                <StyledTitulo1><p className="intento">{this.state.description}</p></StyledTitulo1>
+                                <StyledTitulo1><p className="format">{this.state.description}</p></StyledTitulo1>
                                 <StyledTitulo2><BodyRegular2 name={this.state.description} /></StyledTitulo2>
                             </div>
                             <Row2 xs={1} md={2}>

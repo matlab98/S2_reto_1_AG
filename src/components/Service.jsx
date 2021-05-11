@@ -9,7 +9,7 @@ import { Row2 } from '../styles/RowContainer'
 
 import '../styles/BodyRegular.css';
 
-const StyledTitulo1 = styled.h1`
+const StyledTittle = styled.h1`
     display:block;
     margin-bottom : 28px;
     color:#0F0E17;
@@ -17,7 +17,7 @@ const StyledTitulo1 = styled.h1`
         display:none;
     }
 `
-const StyledTitulo2 = styled.h1`
+const StyledMinTittle = styled.h1`
     display:none;
     @media (max-width: 768px) {
         display:block;
@@ -25,48 +25,47 @@ const StyledTitulo2 = styled.h1`
         color:#0F0E17;
     }
 `
-
 const Service = () => {
     return (
         <>
-            <StyledTitulo1><Headline2 name="Servicios" /></StyledTitulo1>
-            <StyledTitulo2><Headline4 name="Servicios" /></StyledTitulo2>
+            <StyledTittle><Headline2 name="Servicios" /></StyledTittle>
+            <StyledMinTittle><Headline4 name="Servicios" /></StyledMinTittle>
             <Row2>
                 <Col xs={12} md={4}>
-                    <StyledTitulo1><Headline4 name="Diseño" /></StyledTitulo1>
-                    <StyledTitulo2><Headline5 name="Diseño" /></StyledTitulo2>
+                    <StyledTittle><Headline4 name="Diseño" /></StyledTittle>
+                    <StyledMinTittle><Headline5 name="Diseño" /></StyledMinTittle>
 
-                    <StyledTitulo1><p className="intento">Experiencia de usuario</p></StyledTitulo1>
-                    <StyledTitulo1><p className="intento">Interfaz de usuario</p></StyledTitulo1>
-                    <StyledTitulo1><p className="intento">Aplicaciones web</p></StyledTitulo1>
-                    <StyledTitulo1><p className="intento">Prueba de concepto</p></StyledTitulo1>
+                    <StyledTittle><p className="format">Experiencia de usuario</p></StyledTittle>
+                    <StyledTittle><p className="format">Interfaz de usuario</p></StyledTittle>
+                    <StyledTittle><p className="format">Aplicaciones web</p></StyledTittle>
+                    <StyledTittle><p className="format">Prueba de concepto</p></StyledTittle>
 
-                    <StyledTitulo2><BodyRegular2 name="Experiencia de usuario" /></StyledTitulo2>
-                    <StyledTitulo2><BodyRegular2 name="Interfaz de usuario" /></StyledTitulo2>
-                    <StyledTitulo2><BodyRegular2 name="Aplicaciones web" /></StyledTitulo2>
-                    <StyledTitulo2 style={{ marginBottom: "56px" }}><BodyRegular2 name="Prueba de concepto" /></StyledTitulo2>
+                    <StyledMinTittle><BodyRegular2 name="Experiencia de usuario" /></StyledMinTittle>
+                    <StyledMinTittle><BodyRegular2 name="Interfaz de usuario" /></StyledMinTittle>
+                    <StyledMinTittle><BodyRegular2 name="Aplicaciones web" /></StyledMinTittle>
+                    <StyledMinTittle style={{ marginBottom: "56px" }}><BodyRegular2 name="Prueba de concepto"/></StyledMinTittle>
                 </Col>
                 <Col xs={12} md={4}>
-                    <StyledTitulo1><Headline4 name="Desarrollo" /></StyledTitulo1>
-                    <StyledTitulo2><Headline5 name="Desarrollo" /></StyledTitulo2>
+                    <StyledTittle><Headline4 name="Desarrollo" /></StyledTittle>
+                    <StyledMinTittle><Headline5 name="Desarrollo" /></StyledMinTittle>
 
-                    <StyledTitulo1><p className="intento">Aplicaciones móviles</p></StyledTitulo1>
-                    <StyledTitulo1><p className="intento">Sitios web</p></StyledTitulo1>
-                    <StyledTitulo1><p className="intento">Aplicaciones web progresivas</p></StyledTitulo1>
+                    <StyledTittle><p className="format">Aplicaciones móviles</p></StyledTittle>
+                    <StyledTittle><p className="format">Sitios web</p></StyledTittle>
+                    <StyledTittle><p className="format">Aplicaciones web progresivas</p></StyledTittle>
 
-                    <StyledTitulo2><BodyRegular2 name="Aplicaciones móviles" /></StyledTitulo2>
-                    <StyledTitulo2><BodyRegular2 name="Sitios web" /></StyledTitulo2>
-                    <StyledTitulo2 style={{ marginBottom: "56px" }}><BodyRegular2 name="Aplicaciones web progresivas" /></StyledTitulo2>
+                    <StyledMinTittle><BodyRegular2 name="Aplicaciones móviles" /></StyledMinTittle>
+                    <StyledMinTittle><BodyRegular2 name="Sitios web" /></StyledMinTittle>
+                    <StyledMinTittle style={{ marginBottom: "56px",  }}><BodyRegular2 name="Aplicaciones web progresivas" /></StyledMinTittle>
                 </Col>
                 <Col xs={12} md={4}>
-                    <StyledTitulo1><Headline4 name="Marca" /></StyledTitulo1>
-                    <StyledTitulo2><Headline5 name="Marca" /></StyledTitulo2>
+                    <StyledTittle><Headline4 name="Marca" /></StyledTittle>
+                    <StyledMinTittle><Headline5 name="Marca" /></StyledMinTittle>
 
-                    <StyledTitulo1><p className="intento">Identidad de la marca</p></StyledTitulo1>
-                    <StyledTitulo1><p className="intento">Estrategia de marca</p></StyledTitulo1>
+                    <StyledTittle><p className="format">Identidad de la marca</p></StyledTittle>
+                    <StyledTittle><p className="format">Estrategia de marca</p></StyledTittle>
 
-                    <StyledTitulo2><BodyRegular2 name="Identidad de la marca" /></StyledTitulo2>
-                    <StyledTitulo2 style={{ marginBottom: "56px" }}><BodyRegular2 name="Estrategia de marca" /></StyledTitulo2>
+                    <StyledMinTittle><BodyRegular2 name="Identidad de la marca" /></StyledMinTittle>
+                    <StyledMinTittle style={{ marginBottom: "56px" }}><BodyRegular2 name="Estrategia de marca" /></StyledMinTittle>
                 </Col>
             </Row2>
         </>
