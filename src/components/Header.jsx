@@ -60,7 +60,7 @@ const Header = () => {
                         <StyledTitulo2><Headline4 name="¡Hola a todos!" /></StyledTitulo2>
                         <StyledTitulo1><Headline1 name="Soy Hilder Arrieta" /></StyledTitulo1>
                         <StyledTitulo2><Headline4 name="Soy Hilder Arrieta" /></StyledTitulo2>
-                        <p className="intento">Soy estudiante de ingeniería informática, y desarrollador FrontEnd en formación en Academía Geek. </p>
+                        <p className="">Soy estudiante de ingeniería informática, y desarrollador FrontEnd en formación en Academía Geek.</p>
                         <a href="#projects" >
                             <StyledIcon icon={faArrowDown} />
                         </a>

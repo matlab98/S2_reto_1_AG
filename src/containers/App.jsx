@@ -126,7 +126,7 @@ const App = () => {
                     </Row2>
                 </Container2>
             </Testimonials>
-            <StyledImageBanner src={Banner} alt="Imagen de banner representativa" fluid />
+            <StyledImageBanner src={Banner} alt="Imagen de banner representativa" fluid/>
             <Contacts>
                 <Contact/>
             </Contacts>
