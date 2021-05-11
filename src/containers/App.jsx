@@ -17,7 +17,7 @@ import Hero from './Hero'
 import Projects from './Projects'
 import Services from './Services'
 import Testimonials from './Testimonials'
-import Contact from './Contact';
+import Contacts from './Contacts';
 
 //Styles
 import { Headline2, Headline4 } from '../styles/Headline'
@@ -31,7 +31,7 @@ import ImgMujer from '../files/perfilMujer.png'
 import ImgMujer2 from '../files/perfilMujer2.png'
 
 import Banner from '../files/banner.jpg'
-import Contacto from '../components/Contacto';
+import Contact from '../components/Contact';
 import Img from '../files/mascotas.jpg'
 import Img2 from '../files/principeFresco.jpg'
 
@@ -125,9 +125,9 @@ const App = () => {
                 </Container2>
             </Testimonials>
             <StyledImageBanner src={Banner} alt="Imagen de banner representativa" fluid />
-            <Contact>
+            <Contacts>
                 <Contacto/>
-            </Contact>
+            </Contacts>
             <Footer/>
         </>
     )
