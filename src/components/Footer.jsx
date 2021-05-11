@@ -70,7 +70,7 @@ const Footer = () => {
                             </a>
                         </Col>
                         <Col>
-                            <a href="https://twitter.com/Repoyito4" target="_blank">
+                            <a href="https://twitter.com/" target="_blank">
                                 <StyledIcon icon={faTwitter} style={{ color: "white" }} />
                             </a>
                         </Col>
