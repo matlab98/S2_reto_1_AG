@@ -12,7 +12,7 @@ const MainStyled = styled.div`
 
 const Proyects = ({ children }) => {
     return (
-        <MainStyled id="projects">
+        <MainStyled id="proyectos">
             {children}
         </MainStyled>
     )

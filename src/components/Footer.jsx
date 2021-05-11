@@ -27,6 +27,7 @@ const StyledFooter = styled.footer`
         height: 391px;
     }
 `
+
 const StyledIcon = styled(FontAwesomeIcon)`
     width: 35px !important; 
     height: 35px; 
@@ -38,7 +39,6 @@ const StyeledCol = styled(Col)`
     }
 `
 
-
 const Footer = () => {
     return (
         <StyledFooter>
@@ -47,7 +47,7 @@ const Footer = () => {
                     <StyledIcon icon={faHeart} style={{ color: "#F25F4C" }} />
                 </StyeledCol>
                 <StyeledCol md={3} mx={3}>
-                    <BodyRegular2 name="Hecho con ❤️ por Hilder. " />
+                    <BodyRegular2 name="Hecho con ❤️ por Hilder."/>
                 </StyeledCol>
                 <StyeledCol md={5} mx={3}>
                     <BodyRegular2 name="Copyright 2021 - Todos los derechos reservados." />
@@ -69,7 +69,6 @@ const Footer = () => {
                                 <StyledIcon icon={faFacebook} style={{ color: "white" }} />
                             </a>
                         </Col>
-
                         <Col>
                             <a href="https://twitter.com/Repoyito4" target="_blank">
                                 <StyledIcon icon={faTwitter} style={{ color: "white" }} />

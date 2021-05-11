@@ -28,7 +28,6 @@ const StyleBodyBold1 = styled.p`
     font-size: 24px;
     line-height: 40px;
     color: #A7A9BE;
-
 `
 
 const StyleBodyBold2 = styled.p`

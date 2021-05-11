@@ -84,7 +84,6 @@ const StyledButton2 = styled(Button)`
         height: 48px;
     }
 `
-
 class Project extends Component {
 
     constructor({ proyectos }) {
@@ -106,7 +105,7 @@ class Project extends Component {
     render() {
         return (
             <>
-                <Col className="project-tile">
+                <Col className="project-title">
                     <StyledDivImage>
                         <StyledImg src={this.state.imagen} alt="Imagen de proyecto" />
                         <StyledDivI>

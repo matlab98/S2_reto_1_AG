@@ -12,7 +12,7 @@ const MainStyled = styled.div`
     }
 `
 
-const Contact = ({ children }) => {
+const Contacts = ({ children }) => {
     return (
         <MainStyled id="Contacto">
             {children}
@@ -20,4 +20,4 @@ const Contact = ({ children }) => {
     )
 }
 
-export default Contact
+export default Contacts

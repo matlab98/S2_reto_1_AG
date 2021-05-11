@@ -17,6 +17,7 @@ const StyleButtonNav = styled.nav`
         display:none;
     } 
 `
+
 const StyleNavBar = styled(Navbar)`
     height: 96px;
     width:100%;
@@ -37,6 +38,7 @@ const StyleButton = styled(Button)`
     background-color: #F25F4C;
     }
 `
+
 const StyledNavLink = styled(Nav.Link)`
     &:hover {
     background: #F25F4C;
@@ -64,6 +66,7 @@ const StyledNavBarHeart = styled(Navbar.Brand)`
         margin-left: 20%;
     }
 `
+
 const StyleButtonCollapse = styled(Button)`
     width: 206px;
     height: 48px;

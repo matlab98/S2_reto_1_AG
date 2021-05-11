@@ -62,7 +62,7 @@ const StyledTitulo2 = styled.h1`
         text-align:left;
     }
 `
-class Contacto extends Component {
+class Contact extends Component {
 
     constructor() {
         super();
@@ -119,4 +119,4 @@ class Contacto extends Component {
     }
 }
 
-export default Contacto
+export default Contact
