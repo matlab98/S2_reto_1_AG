@@ -5,7 +5,7 @@ import { Headline2, Headline4 } from '../styles/Headline'
 import {Row2} from '../styles/RowContainer'
 import styled from 'styled-components'
 
-import '../styles/BodyRegular1.css';
+import '../styles/BodyRegular.css';
 
 const StyledTitulo1 = styled.h1`
     display:block;
@@ -21,7 +21,7 @@ const StyledTitulo2 = styled.h1`
 `
 
 
-const DescriptionProyects = () => {
+const DescriptionProjects = () => {
     return (
         <Row2 style={{ color: "#0F0E17" }}>
             <Col xs={12} md={7}>
@@ -37,4 +37,4 @@ const DescriptionProyects = () => {
     )
 }
 
-export default DescriptionProyects
+export default DescriptionProjects

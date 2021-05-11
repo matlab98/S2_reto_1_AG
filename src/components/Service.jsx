@@ -7,7 +7,7 @@ import { BodyRegular2 } from '../styles/Body'
 import { Headline2, Headline4, Headline5 } from '../styles/Headline'
 import { Row2 } from '../styles/RowContainer'
 
-import '../styles/BodyRegular1.css';
+import '../styles/BodyRegular.css';
 
 const StyledTitulo1 = styled.h1`
     display:block;

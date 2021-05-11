@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import 'bootstrap/dist/css/bootstrap.css';
 import styled from 'styled-components';
 
-import '../styles/BodyRegular1.css';
+import '../styles/BodyRegular.css';
 
 import { Col, Image} from 'react-bootstrap'
 import { BodyBold2 } from '../styles/Body'

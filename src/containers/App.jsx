@@ -4,17 +4,17 @@ import styled from 'styled-components';
 import 'bootstrap/dist/css/bootstrap.css';
 
 //Components
-import DescriptionProyects from '../components/DescriptionProyects'
+import DescriptionProjects from '../components/DescriptionProjects'
 import Header from '../components/Header'
 import NavH from '../components/Nav'
-import Proyect1 from '../components/Proyect1'
+import Project from '../components/Project'
 import Service from '../components/Service'
 import Testimony from '../components/Testimony'
 import Footer from '../components/Footer';
 
 //Containers
 import Hero from './Hero'
-import Proyects from './Proyects'
+import Projects from './Projects'
 import Services from './Services'
 import Testimonials from './Testimonials'
 import Contact from './Contact';
@@ -31,7 +31,7 @@ import ImgMujer from '../files/perfilMujer.png'
 import ImgMujer2 from '../files/perfilMujer2.png'
 
 import Banner from '../files/banner.jpg'
-import Contacto from '../components/Contacto';
+import Contacto from '../components/Contact';
 import Img from '../files/mascotas.jpg'
 import Img2 from '../files/principeFresco.jpg'
 
@@ -43,7 +43,7 @@ const StyledImageBanner = styled(Image)`
     height: auto;
 `
 
-const StyleDivMasProyectos = styled.div`
+const StyleDivMasProjects = styled.div`
     text-align : center;
     &:hover {
         color: white; 
@@ -97,16 +97,16 @@ const App = () => {
             <Hero>
                 <Header />
             </Hero>
-            <Proyects>
-                <DescriptionProyects />
+            <Projects>
+                <DescriptionProjects />
                 <Row2 style={{ textAlign: "center" }}>
-                    <Proyect1 proyectos={["Adopción de mascotas", "...", Img, "https://github.com/matlab98/Spring-1-App_Adoption-AG", "https://matlab98.github.io/Spring-1-App_Adoption-AG/"]} />
-                    <Proyect1 proyectos={["Príncipe fresco", "La serie está protagonizada por Will Smith como una versión ficticia de sí...", Img2, "https://github.com/elverytr/PrincipeFresco", "https://elverytr.github.io/PrincipeFresco/"]} />
+                    <Project1 proyectos={["Adopción de mascotas", "...", Img, "https://github.com/matlab98/Spring-1-App_Adoption-AG", "https://matlab98.github.io/Spring-1-App_Adoption-AG/"]} />
+                    <Project1 proyectos={["Príncipe fresco", "La serie está protagonizada por Will Smith como una versión ficticia de sí...", Img2, "https://github.com/elverytr/PrincipeFresco", "https://elverytr.github.io/PrincipeFresco/"]} />
                 </Row2>
-                <StyleDivMasProyectos>
+                <StyleDivMasProjects>
                     <a href="https://github.com/matlab98" target="_blank"><StyledButton variant="outline-danger">Ver más proyectos <StyledIcon icon={faArrowRight} /></StyledButton></a>
-                </StyleDivMasProyectos>
-            </Proyects>
+                </StyleDivMasProjects>
+            </Projects>
             <Services>
                 <Service />
             </Services>

@@ -8,7 +8,7 @@ import { Headline5 } from '../styles/Headline';
 import {  BodyRegular2 } from '../styles/Body';
 import {Row2} from '../styles/RowContainer'
 
-import '../styles/BodyRegular1.css';
+import '../styles/BodyRegular.css';
 
 const StyledDivImage = styled.div`
    height: 520px;
@@ -85,7 +85,7 @@ const StyledButton2 = styled(Button)`
     }
 `
 
-class Proyect1 extends Component {
+class Project extends Component {
 
     constructor({ proyectos }) {
         super()
@@ -134,4 +134,4 @@ class Proyect1 extends Component {
     }
 }
 
-export default Proyect1
+export default Project
