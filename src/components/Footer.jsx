@@ -47,7 +47,7 @@ const Footer = () => {
                     <StyledIcon icon={faHeart} style={{ color: "#F25F4C" }} />
                 </StyeledCol>
                 <StyeledCol md={3} mx={3}>
-                    <BodyRegular2 name="Hecho con ❤️ por Hilder."/>
+                    <BodyRegular2 name="Hecho con ❤️ por Hilder"/>
                 </StyeledCol>
                 <StyeledCol md={5} mx={3}>
                     <BodyRegular2 name="Copyright 2021 - Todos los derechos reservados." />
